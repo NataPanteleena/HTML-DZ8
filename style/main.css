@@ -1,0 +1,99 @@
+
+/*----------------main--------------------*/
+.main{
+    background-color: var(--color-baige);
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.main-wrapper {
+    max-width: 1170px;
+    min-width: 470px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: repeat(auto-fit);
+    grid-auto-flow: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+/*----------------card 1--------------------*/
+.main__cards{
+    margin: 0px 20px;
+    padding-right: 10px;
+}
+
+.main__cards-title {
+    display: flex;
+    align-self: start;
+    gap: 10px;
+    border-top: 1px solid var(--color-black);
+    border-bottom: 1px solid var(--color-black);
+    height: 40px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.main__cards-title__text{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main__cards-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__cards-content__rows{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.main__cards__skilltext{
+    font-size: 16px;
+    color: var(--color-dark-gray)
+}
+/*----------------card 2--------------------*/
+.main__cards__text-block {
+    border-left: 2px solid var(--color-dark-gray);
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid var(--color-black);
+    margin-left: -4px;
+}
+
+.main__cards__text-block__title{
+    font-size: 18px;
+    margin-top: -10px;
+}
+.main__cards__text-block__notes {
+    font-size: 14px;
+    color: var(--color-dark-gray);
+}
+.main__cards__text-block__text {
+    font-size: 16px;
+    color: var(--color-dark-gray);
+}
+
+/*----------------card 3--------------------*/
+
+.main__cards__list_item{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+/*----------------card 5--------------------*/
+.border-type {
+    border-bottom: 1px solid var(--color-dark-gray);
+}

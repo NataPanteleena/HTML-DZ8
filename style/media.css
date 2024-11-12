@@ -1,0 +1,24 @@
+@media (max-width: 470px) {
+    .main-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .footer{
+        max-width: 470px;
+        height: 120px;
+    }
+    .footer-list{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .main {
+        padding-bottom: 10px;
+    }
+    .footer__item{
+        height: 30px;
+        max-width: 150px;
+        padding-bottom: 5px;
+    }
+}
